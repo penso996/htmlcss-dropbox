@@ -127,16 +127,16 @@ header {
 }
 
 
-/*CARD SECTION*/
-.card {
+/*TABS SECTION*/
+.tabs {
     padding-left: 20%;
     padding-right: 20%;
     height: 1000px;
     border-top: solid rgb(244, 244, 244);
 }
 
-/* main card section */
-.card h1 {
+/* main tab section */
+.tabs h1 {
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 30px;
@@ -146,8 +146,8 @@ header {
     padding-right: 30px;
 }
 
-/* table card section */
-.card-selector {
+/* tab table section */
+.tab-selector {
     margin-top: 50px;
     width: 100%;
     height: 100%;
@@ -155,74 +155,25 @@ header {
     justify-content: space-between;
 }
 
-.card1-3 {
+.tab-outer-body {
     width: 30%;
     height: 800px;
-    border: 1px solid lightgray;
+    border: solid 1px lightgray;
 }
 
-/* inside card */
-.card-header {
+.tab-header {
     width: 100%;
     height: 40px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: solid 1px lightgray;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
 }
 
-.card1-3 h3 {
-    font-size: 30px;
-    padding: 20px;
-}
+.tab-inner-body {
+    margin-left: 20px;
+    margin-right: 20px;
 
-.price {
-    padding-left: 20px;
-    font-weight: bolder;
-}
-
-.price-spec {
-    padding-left: 20px;
-    color: lightgray;
-    padding-bottom: 30px;
-}
-
-.description {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.symbol {
-    width: 10%;
-    padding-left: 5px;
-    padding-top: 3px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.text {
-    width: 90%;
-    padding-left: 5px;
-    padding-right: 25px;
-}
-
-.button-space {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.card1-3 p {
-    padding-left: 20px;
-    padding-bottom: 30px;
-}
-
-.card1-3 h4 {
-    padding-left: 20px;
-    font-size: small;
+    height: 400px;
+    background-color: aliceblue;
 }
