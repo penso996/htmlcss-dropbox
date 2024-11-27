@@ -181,3 +181,32 @@ header {
     padding-left: 20px;
     font-weight: bolder;
 }
+
+.price-spec {
+    padding-left: 20px;
+    color: lightgray;
+    padding-bottom: 30px;
+}
+
+.description {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.symbol {
+    width: 10%;
+    padding-left: 5px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text {
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 25px;
+}
