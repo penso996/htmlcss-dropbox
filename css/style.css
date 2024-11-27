@@ -129,7 +129,15 @@ header {
 
 /*card section*/
 .card {
+    padding-left: 20%;
+    padding-right: 20%;
     width: 100%;
-    height: 500px;
-    background-color: blanchedalmond;
+    height: 1000px;
+    border-top: solid rgb(244, 244, 244);
+}
+
+.card h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
 }
