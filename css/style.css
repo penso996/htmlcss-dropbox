@@ -72,11 +72,37 @@ header {
     background-color: #b4d0e6;
 }
 
+/*jumbotron title*/
 .jumbotron-title {
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 50px;
+    padding-top: 60px;
     height: 200px;
     text-align: justify;
     font-size: 60px;
+    font-weight: bolder;
+}
+
+/*jumbotron main*/
+.jumbotron-main {
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    border: solid #0061fe;
+}
+
+/*jumbotron left*/
+.jumbotron-left {
+    width: 40%;
+    height: 100%;
+    border: solid black;
+}
+
+/* jumbotron right */
+.jumbotron-right {
+    width: 60%;
+    height: 100%;
+    border: solid red;
 }
