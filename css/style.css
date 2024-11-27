@@ -153,13 +153,11 @@ header {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    /* debug */
-    background-color: grey;
 }
 
 .card1-3 {
     width: 30%;
-    height: 400px;
+    height: 800px;
     border: 1px solid lightgray;
 }
 
