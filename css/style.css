@@ -216,3 +216,13 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.card1-3 p {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.card1-3 h4 {
+    padding-left: 20px;
+    font-size: small;
+}
