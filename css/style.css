@@ -325,20 +325,30 @@ header {
     flex-wrap: wrap;
     height: auto;
     padding-bottom: 100px;
-
-    background-color: #7dafff;
 }
 
 .business-section h2 {
     width: 100%;
     font-size: 35px;
-    background-color: red;
     margin-bottom: 50px;
 }
 
+.business-section p {
+    width: 100%;
+}
+
+/* business-tabs */
 .business-tabs {
     width: 30%;
     margin-bottom: 30px;
-    height: 400px;
-    background-color: aqua;
+    height: auto;
+}
+
+.business-tabs img {
+    width: 100%;
+}
+
+.business-tabs p {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
