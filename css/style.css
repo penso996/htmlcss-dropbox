@@ -45,11 +45,6 @@ header {
     justify-content: space-around;
 }
 
-.header-left a {
-    text-decoration: none;
-    color: black;
-}
-
 /*header right*/
 .header-right {
     width: 30%;
@@ -60,11 +55,22 @@ header {
     justify-content: space-around;
 }
 
-.header-right a {
+.header-list {
+    display: flex;
     text-decoration: none;
+    align-items: center;
     color: black;
+    height: 100%;
 }
 
+.header-list:hover {
+    border-bottom: solid 2px #0061fe;
+    padding-top: 2px;
+}
+
+.header-right a {
+    text-decoration: none;
+}
 
 /*JUMBOTRON*/
 .jumbotron {
